@@ -1,9 +1,12 @@
 import React from "react";
 
+import { Header, Navbar } from "./component";
+
 const App = () => {
   return (
-    <div>
-      <p className="text-blue-500">reuben</p>
+    <div className="bg-[#0F0F0F]">
+      <Navbar />
+      <Header />
     </div>
   );
 };
