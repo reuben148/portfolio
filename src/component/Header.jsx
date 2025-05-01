@@ -2,19 +2,27 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="">
-      <div>
-        <h1 className="font-bold text-[36px] md:text-[48px] leading-[130%] tracking-[0.01em] text-white mt-16 px-4 py-6">
+    <div className="flex flex-col md:flex-row items-center justify-between px-4 py-8 gap-6">
+      <div className="flex-1">
+        <h1 className="font-bold text-[32px] md:text-[44px] lg:text-[48px] leading-[130%] tracking-[0.01em] text-white mt-4 md:mt-16">
           Hey there, I’m <span className="text-cyan-400">Reuben Luka</span>
           <br />
           Crafting interfaces & coding <br /> smart contracts with purpose.
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl px-4 font-mono">
+        <p className="text-base md:text-lg lg:text-xl text-gray-300 max-w-2xl mt-4 font-mono">
           I design interactive, responsive web apps as a{" "}
           <span className="text-cyan-400 font-medium">Frontend Developer</span>,
           and engineer secure, efficient smart contracts on the blockchain.
           Let's build intuitive, user-focused digital products—together.
         </p>
+      </div>
+
+      <div className="flex-1 flex justify-center">
+        <img
+          src="port.png"
+          alt="Portfolio illustration"
+          className="w-[250px] md:w-[300px] lg:w-[400px] object-contain rounded-2xl hover:scale-105 transition-transform duration-300 ease-in-out"
+        />
       </div>
     </div>
   );
