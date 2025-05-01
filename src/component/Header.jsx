@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../containers/Button";
 
 function Header() {
   return (
@@ -15,13 +16,14 @@ function Header() {
           and engineer secure, efficient smart contracts on the blockchain.
           Let's build intuitive, user-focused digital products—together.
         </p>
+        <Button />
       </div>
 
       <div className="flex-1 flex justify-center">
         <img
           src="port.png"
           alt="Portfolio illustration"
-          className="w-[250px] md:w-[300px] lg:w-[400px] object-contain rounded-2xl hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="w-full md:w-[300px] lg:w-[400px] object-contain rounded-2xl hover:scale-105 transition-transform duration-300 ease-in-out"
         />
       </div>
     </div>
