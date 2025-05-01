@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Header, Navbar, Projects } from "./component";
+import { CTA, Footer } from "./containers";
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
       <Navbar />
       <Header />
       <Projects />
+      <CTA />
+      <Footer />
     </div>
   );
 };

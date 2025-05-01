@@ -3,7 +3,7 @@ import Button from "../containers/Button";
 
 function Header() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-5 py-8 gap-6">
+    <div className="flex flex-col md:flex-row items-center justify-between px-5 py-8 gap-6 bg-[#00040f]">
       <div className="flex-1">
         <h1 className="font-bold text-[32px] md:text-[44px] lg:text-[48px] leading-[130%] tracking-[0.01em] text-white mt-4 md:mt-16">
           Hey there, I’m <span className="text-cyan-400">Reuben Luka</span>
