@@ -33,6 +33,14 @@ const projectData = [
     github: "https://github.com/reuben148/flight-project",
     img: "/images/flight.png",
   },
+  {
+    title: "Job Huntly",
+    description: "Search and view flights with API integration and React.",
+    stack: ["React", "APIs", "Tailwind"],
+    url: "https://job-app-jade.vercel.app/",
+    github: "https://github.com/reuben148/job-app",
+    img: "/images/flight.png",
+  },
 ];
 
 function Projects() {
