@@ -6,8 +6,8 @@ function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           <p className="text-lg font-semibold">Reuben_dev</p>
-          <p className="text-sm text-gray-400 mt-1">Phone: +234 813 123 4567</p>
-          <p className="text-sm text-gray-400">Email: reubendev59@gmail.com</p>
+          <p className="text-sm text-white mt-1">Phone: +234 813 123 4567</p>
+          <p className="text-sm text-white">Email: reubendev59@gmail.com</p>
         </div>
 
         <div className="flex gap-4">
@@ -70,7 +70,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-center text-gray-500 text-sm mt-10">
+      <p className="text-center text-white text-sm mt-10">
         &copy; {new Date().getFullYear()} Reuben Luka. All rights reserved.
       </p>
     </footer>

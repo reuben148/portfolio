@@ -7,7 +7,7 @@ const projectData = [
     stack: ["React", "Tailwind", "JavaScript"],
     url: "https://hoo-ban-ncel.vercel.app/",
     github: "https://github.com/reuben148/hoo-ban",
-    img: "/images/flipit.png",
+    img: "hoo.png",
   },
   {
     title: "Modern Landing Page",
@@ -15,7 +15,7 @@ const projectData = [
     stack: ["React", "Tailwind", "JavaScript"],
     url: "https://gpt-3-9tza.vercel.app/",
     github: "https://github.com/reuben148/gpt-3",
-    img: "/images/landing.png",
+    img: "gpt.png",
   },
   {
     title: "Lunch App",
@@ -31,7 +31,7 @@ const projectData = [
     stack: ["React", "APIs", "Tailwind"],
     url: "https://flight-4lc1.vercel.app",
     github: "https://github.com/reuben148/flight-project",
-    img: "/images/flight.png",
+    img: "flight.png",
   },
   {
     title: "Job Huntly",
@@ -39,7 +39,7 @@ const projectData = [
     stack: ["React", "APIs", "Tailwind"],
     url: "https://job-app-jade.vercel.app/",
     github: "https://github.com/reuben148/job-app",
-    img: "/images/flight.png",
+    img: "job.png",
   },
 ];
 
