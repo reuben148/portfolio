@@ -21,9 +21,9 @@ const projectData = [
     title: "Lunch App",
     description: "A collaborative lunch-management app with intuitive routing.",
     stack: ["React", "Tailwind", "JavaScript"],
-    url: "https://github.com/Akanimoh12/Lunch-App-Project.git",
+    url: "https://lunch-app-ten.vercel.app/",
     github: "https://github.com/reuben148/lunch-app",
-    img: "/images/lunch.png",
+    img: "lunch.jpg",
   },
   {
     title: "Flight Search App",
