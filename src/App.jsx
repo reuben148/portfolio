@@ -5,7 +5,7 @@ import { CTA, Footer } from "./containers";
 
 const App = () => {
   return (
-    <div className="bg-[#0F0F0F]">
+    <div className="bg-[#5a5eec]">
       <Navbar />
       <Header />
       <Projects />

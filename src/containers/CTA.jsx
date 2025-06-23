@@ -12,7 +12,7 @@ function CTA() {
   ];
 
   return (
-    <div className="bg-[#00040f] py-10 px-6 md:px-10">
+    <div className=" py-10 px-6 md:px-10">
       <div>
         <p className="text-5xl font-semibold text-white mb-8">Technologies</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">

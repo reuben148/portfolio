@@ -45,7 +45,7 @@ const projectData = [
 
 function Projects() {
   return (
-    <section className="py-12 px-4 bg-[#00040f]">
+    <section className="py-12 px-4 ">
       <p className="text-5xl font-semibold text-white mb-8">Projects</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((proj) => (

@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center p-4 bg-[#00040f]">
+    <div className="flex flex-col md:flex-row justify-between items-center p-4">
       {/* Logo Section */}
       <div className="flex items-center gap-2 mb-4 md:mb-0">
         <i className="fa-solid fa-database fa-2x text-white"></i>
